@@ -1,5 +1,5 @@
-import { defineConfig } from "tinacms";
-
+import { defineConfig } from "tinacms"; 
+ 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
   process.env.GITHUB_BRANCH ||
@@ -20,7 +20,7 @@ export default defineConfig({
     publicFolder: "static",
   },
   media: {
-    tina: {
+    tina   从: {
       mediaRoot: "",
       publicFolder: "static",
     },

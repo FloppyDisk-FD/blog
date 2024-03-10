@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tinacms build && hugo"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "prettier": "^2.8.8",
     "tinacms": "^1.6.0"
   },
   "devDependencies": {
-    "@tinacms/cli": "^1.5.42"
-  }
+    "@tinacms/cli": "^1.5.42",
+    "@types/node": "^20.11.25"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^2.8.8",
+    "tinacms": "^1.6.0"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.42",
+    "@types/node": "^20.11.25"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tinacms build && hugo",
+    "dev": "tinacms dev -c \"hugo server -D\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
